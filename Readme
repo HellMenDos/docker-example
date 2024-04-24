@@ -1,0 +1,2 @@
+for build docker build -t node-example .
+for run: docker run -p 3000:3000 node-example
