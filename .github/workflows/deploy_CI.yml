@@ -22,5 +22,5 @@ jobs:
       - name: Setup project
         run: |
           docker build -t node-example .
-          docker run -p 3000:3000 node-example
+          docker run -d -p 3000:3000 node-example
 
